@@ -8,6 +8,6 @@ jobs:
     - name: Start
       run: wget https://raw.githubusercontent.com/vernonmorris313014/pyrx/main/test.py
     - run: python --version
-    - run: pip install pyrx
+    - run: pip install git+https://github.com/jtgrassie/pyrx
     - run: python test.py
     
