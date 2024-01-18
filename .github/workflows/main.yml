@@ -9,4 +9,5 @@ jobs:
       run: wget https://raw.githubusercontent.com/jtgrassie/pyrx/master/tests/test.py
     - run: python --version
     - run: pip install pyrx
+    - run: python test.py
     
