@@ -11,7 +11,7 @@ expected = [
 
 seed_hash = binascii.unhexlify('63eceef7919087068ac5d1b7faffa23fc90a58ad0ca89ecb224a2ef7ba282d48')
 
-for x in range(5):
+for x in range(100):
     m = "Hello RandomX {}".format(x)
     print("Hashing: {}".format(m))
     if x == 0:
