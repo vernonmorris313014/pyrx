@@ -11,12 +11,12 @@ expected = [
 
 seed_hash = binascii.unhexlify('63eceef7919087068ac5d1b7faffa23fc90a58ad0ca89ecb224a2ef7ba282d48')
 
-for x in range(1000):
+for x in range(100000):
     m = "Hello RandomX {}".format(x)
-    print("Hashing: {}".format(m))
+    #print("Hashing: {}".format(m))
     if x == 0:
         print("(first takes a while, please wait)")
     h = 1 + x
     bh = pyrx.get_rx_hash(m, seed_hash, h)
     hh = binascii.hexlify(bh).decode()
-    print("Result: {}".format(hh))
+    #print("Result: {}".format(hh))
