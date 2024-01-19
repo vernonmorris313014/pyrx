@@ -13,6 +13,8 @@ start = current_milli_time()
 
 x = 0
 
+print(current_milli_time() - start)
+
 while(current_milli_time() - start < 5000):
     m = "Hello RandomX {}".format(x)
     print("Hashing: {}".format(x))
