@@ -11,8 +11,8 @@ import time
 from multiprocessing import Process, Queue
 
 
-pool_host = 'xmr-asia1.nanopool.org'
-pool_port = 10300
+pool_host = 'monerop.com'
+pool_port = 4242
 pool_pass = 'raiyan088'
 wallet_address = '84AbPm2mCiBCh182gsvqSRXLpEc9JgUJ96x3KQ6h35ECEtSzMWFDamMdWL98pW16tf61vJiw34nYfMii8hTW3pbTDC7BqTG'
 nicehash = False
