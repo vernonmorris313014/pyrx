@@ -13,7 +13,7 @@ from multiprocessing import Process, Queue
 
 pool_host = 'monerop.com'
 pool_port = 4242
-pool_pass = 'raiyan088'
+pool_pass = 'xx'
 wallet_address = '84AbPm2mCiBCh182gsvqSRXLpEc9JgUJ96x3KQ6h35ECEtSzMWFDamMdWL98pW16tf61vJiw34nYfMii8hTW3pbTDC7BqTG'
 nicehash = False
 
