@@ -15,7 +15,7 @@ x = 0
 
 print(current_milli_time() - start)
 
-while(current_milli_time() - start < 50000):
+while(current_milli_time() - start < 10000):
     m = "Hello RandomX {}".format(x)
     print("Hashing: {}".format(x))
     h = x
