@@ -50,6 +50,7 @@ def main():
             result = r.get('result')
             method = r.get('method')
             params = r.get('params')
+            print(result)
             if error:
                 print('Error: {}'.format(error))
                 continue
@@ -113,8 +114,6 @@ def worker(q, s):
             if cnv > 5:
                 hash = pyrx.get_rx_hash(bin, seed_hash, height)
             hash_count += 1
-            sys.stdout.write('.')
-            sys.stdout.flush()
             hex_hash = binascii.hexlify(hash).decode()
             r64 = struct.unpack('Q', hash[24:])[0]
             if r64 < target:
